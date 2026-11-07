@@ -1,0 +1,10 @@
+Photograph: assets/cyclone-z020.png
+Retrieved: 2026-11-07
+Source page: https://kochpro.ru/products/cyclone_black_z020_apparat_tsiklon.html
+Direct file: https://kochpro.ru/files/products/999360.800x600w.png
+Retailer label: CYCLONE BLACK Z020 аппарат циклон, file id 999360
+Decoded size: 600×600 PNG
+Visible on the tool: CYCLONE, professional cleaning tool, white canister, metal gun, black funnel.
+Shown as assets/cyclone-z020-cut.png: the same photograph with the pure white studio field removed. Tool pixels are unchanged. The panel behind it is flat gray with drawn lines, not another photograph.
+
+Limitation: this is a retailer product photograph. No reuse license was found. It is included so the concept shows the real apparatus, not a drawing or a paint spray gun. Specs, price, stock, and warranty on the source page are not repeated here because sellers disagree and this demo is not a store.
