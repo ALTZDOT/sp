@@ -17,20 +17,16 @@
         <button type="button" data-note="Раздел «Типовые решения» в этой концепции не подключён.">Типовые решения</button>
         <button type="button" data-note="Раздел «FAQ» в этой концепции не подключён.">FAQ</button>
       </nav>
-      <div class="header-actions">
-        <button type="button" class="btn-catalog" data-note="Каталог в этой концепции не подключён. Это макет первого экрана.">Каталог</button>
-        <button type="button" class="btn-quiet" data-note="Это отдельная концепция главной страницы, не интернет-магазин.">Концепция главной страницы</button>
-      </div>
     </header>
 
     <section class="hero" aria-labelledby="hero-title">
       <div class="panel panel-copy">
-        <ul class="pills">
-          <li>Пневмооборудование</li>
-          <li>Химчистка</li>
-          <li>Уход за салоном</li>
-        </ul>
-        <div class="copy-bottom">
+        <div class="copy-stack">
+          <ul class="pills">
+            <li>Пневмооборудование</li>
+            <li>Химчистка</li>
+            <li>Уход за салоном</li>
+          </ul>
           <h1 id="hero-title"><span>Профессиональная химчистка:</span> оборудование для чистого результата</h1>
           <p class="lead">Пневматические аппараты Cyclone с бачком и воронкой. Состав подаётся вместе с потоком воздуха и снимает загрязнения с текстиля, кожи и пластика.</p>
           <button type="button" class="cta" data-note="Каталог в этой концепции не подключён. Это макет первого экрана.">Смотреть каталог</button>
@@ -38,10 +34,19 @@
         </div>
       </div>
       <div class="panel panel-photo">
-        <img src="assets/cyclone-z020.png" width="600" height="600" alt="Пневматический аппарат Cyclone: белая ёмкость, металлический пистолет и чёрная воронка.">
+        <img class="photo-detail" src="assets/cyclone-z020-metal.png" alt="" width="480" height="840">
+        <div class="photo-veil" aria-hidden="true"></div>
+        <img class="photo-product" src="assets/cyclone-z020-cut.png" width="600" height="600" alt="Пневматический аппарат Cyclone: белая ёмкость, металлический пистолет и чёрная воронка.">
       </div>
     </section>
   </div>
+  <aside class="followup">
+    <div>
+      <p class="followup-invite">Продолжим работу над вашим сайтом?</p>
+      <p class="followup-by">Данил · Дизайн и разработка</p>
+    </div>
+    <a class="followup-link" href="https://t.me/Dlsovca">@Dlsovca</a>
+  </aside>
   <script src="assets/main.js"></script>
 </body>
 </html>
