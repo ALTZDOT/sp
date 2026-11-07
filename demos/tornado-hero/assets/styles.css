@@ -55,9 +55,8 @@ a:focus-visible {
 .site-header {
   display: flex;
   align-items: center;
-  gap: 24px;
   min-height: 64px;
-  padding: 12px 24px;
+  padding: 12px 32px;
   background: #fff;
 }
 
@@ -84,7 +83,8 @@ a:focus-visible {
 nav {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 28px;
+  margin-left: clamp(72px, 6vw, 120px);
 }
 
 nav button {
@@ -99,6 +99,24 @@ nav button {
 nav button:hover,
 .menu-toggle:hover {
   color: #171717;
+}
+
+.btn-catalog {
+  margin-left: auto;
+  min-height: 36px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: #fff;
+  color: #171717;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  box-shadow: inset 0 0 0 1px rgba(23, 23, 23, 0.16);
+  transition: background-color 160ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.btn-catalog:hover {
+  background: #f4f4f5;
 }
 
 .cta {
@@ -143,8 +161,10 @@ nav button:hover,
   inset: 0;
   width: 100%;
   height: 100%;
-  stroke: rgba(32, 38, 46, 0.22);
-  stroke-width: 0.28;
+  fill: none;
+  stroke: #c42d10;
+  stroke-width: 0.42;
+  stroke-linecap: round;
 }
 
 .photo-product {
@@ -163,7 +183,7 @@ nav button:hover,
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 28px 36px 28px;
+  padding: 32px;
 }
 
 .copy-stack {
@@ -176,7 +196,7 @@ nav button:hover,
 .pills {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 12px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -193,14 +213,14 @@ nav button:hover,
 }
 
 h1 {
-  margin: 0 0 16px;
+  margin: 0 0 24px;
   max-width: 11em;
   color: #171717;
   font-family: Oswald, "Arial Narrow", Impact, sans-serif;
   font-size: clamp(40px, 3.5vw, 68px);
   font-weight: 700;
   letter-spacing: 0;
-  line-height: 0.98;
+  line-height: 1.22;
   text-transform: uppercase;
 }
 
@@ -210,7 +230,7 @@ h1 span {
 
 .lead {
   max-width: 34rem;
-  margin: 0 0 20px;
+  margin: 0 0 24px;
   color: #5c6570;
   font-size: 15px;
   font-weight: 400;
@@ -303,6 +323,15 @@ h1 span {
     align-items: center;
     order: 2;
     margin-left: auto;
+  }
+
+  .btn-catalog {
+    order: 3;
+    margin-left: 12px;
+  }
+
+  nav {
+    margin-left: 0;
   }
 
   .site-header {
