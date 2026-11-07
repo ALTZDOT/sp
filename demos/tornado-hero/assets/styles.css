@@ -151,7 +151,7 @@ nav button:hover,
   pointer-events: none;
   fill: none;
   stroke: #c42d10;
-  stroke-width: 0.32;
+  stroke-width: 0.85;
   stroke-linecap: round;
 }
 
@@ -422,7 +422,7 @@ h1 span {
     pointer-events: none;
     fill: none;
     stroke: #c42d10;
-    stroke-width: 0.4;
+    stroke-width: 1.15;
     stroke-linecap: round;
   }
 
